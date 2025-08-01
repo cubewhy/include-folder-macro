@@ -4,12 +4,12 @@
 
 ```rust
 // imagine the struct of current folder is 
-// ./
-// ./lib.rs
-// ./example.rs
-// ./example/code.rs
-// ./example/code2.rs
-include_folder!(".");
+// ./src
+// ./src/lib.rs
+// ./src/example.rs
+// ./src/example/code.rs
+// ./src/example/code2.rs
+include_all_modules!("src");
 
 // This will expand to
 pub mod example {
@@ -21,4 +21,4 @@ pub mod example {
 ## Usage
 
 - Run `cargo add include-folder-macro`
-- Add `include_folder!()` macro to your lib.rs or main.rs
+- Add `include_folder!()` or `include_all_modules!("src")` macro to your lib.rs or main.rs
