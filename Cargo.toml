@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "A macro crate for generating `pub mod` sentenses"
 license-file = "LICENSE"
-license = "bsd-2.0-license"
+license = "BSD-2-Clause"
 
 [lib]
 proc-macro = true
