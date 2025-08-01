@@ -2,6 +2,8 @@
 name = "include-folder-macro"
 version = "0.1.0"
 edition = "2024"
+license-file = "LICENSE"
+license = "bsd-2.0-license"
 
 [lib]
 proc-macro = true
